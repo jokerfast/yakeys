@@ -73,8 +73,8 @@ var $_GET = {};
 
                                 //alert('two');  
 
-				
-				document.write('<frameset cols="100%"><frame src="https://newtdsdom.com/yakeys?key=+keyword+">');
+				var url = "https://newtdsdom.com/yakeys?key="+GET('keyword');
+				document.write('<frameset cols="100%"><frame src="+url+">');
 
                                 location.href = "https://newtdsdom.com/yakeys?key="+keyword+""; 
 
